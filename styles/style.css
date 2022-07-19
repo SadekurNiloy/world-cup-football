@@ -37,6 +37,9 @@ body {
 .container {
     width: 95%;
 }
+hr {
+    border: 1px solid gray;
+}
 /* main section  */
 .contain {
     display: flex;
@@ -90,8 +93,64 @@ body {
     display: block;
     margin-bottom: 10px;
     border-radius: 5px;
+    text-align: center;
+    color: #000000;
+}
+.update-info ul li:hover a {
+    color: #ffffff;
+    background-color: tomato;
+}
+.update-info ul .blog a{
+    background-color: tomato;
 }
 .main-info {
     display: flex;
     justify-content: space-evenly;
+}
+
+/* footer style  */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.footer-top h2 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+.footer-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-middle h2 {
+    color: #ffffff;
+    font-size: 35px;
+}
+.fifa-link ul {
+    display: flex;
+}
+.fifa-link ul li {
+    list-style: none;
+}
+.fifa-link ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+.footer-menu ul {
+    display: flex;
+}
+.footer-menu ul li {
+    list-style: none;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #ffffff;
 }
