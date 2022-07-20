@@ -108,6 +108,19 @@ hr {
     justify-content: space-between;
     
 }
+.view {
+    background-color: tomato;
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+.view a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+}
 
 /* footer style  */
 footer {
@@ -161,6 +174,9 @@ footer {
     .main-left ul {
         display: flex;
         flex-direction: column;
+    }
+    .view {
+        display: none;
     }
 }
 @media screen and (max-width:768px) {
@@ -233,5 +249,7 @@ footer {
     .footer-menu ul {
         flex-direction: column;
     } 
-
+    .view {
+        display: none;
+    }
 }
