@@ -29,6 +29,37 @@
     color: #ffffff;
     
 }
+.ticket {
+    background-color: violet;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.ticket a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+/* animation  */
+@keyframes sliding {
+    from {
+        left: 0;
+    }
+    to {
+        left: 500px;
+    }
+}
+.football {
+    width: 56px;
+    height: 56px;
+}
+.football {
+    transform: translate(500px);
+    transform: rotate(60deg);
+    position: relative;
+    transition: transform 5s ease-out;
+    animation: sliding 5s ease infinite;
+}
+
 /* common styles  */
 body {
     margin: 0;
