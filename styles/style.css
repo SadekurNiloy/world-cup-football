@@ -157,7 +157,13 @@ footer {
 }
 
 /* Media Queries */
-@media screen and (max-width:778px) {
+@media screen and (max-width: 450px) {
+    .main-left ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:768px) {
     .container {
         width: 100%;
     }
@@ -193,7 +199,7 @@ footer {
     } 
 
 }
-@media screen and (min-width:779px) and (max-width: 1220px) {
+@media screen and (min-width:769px) and (max-width: 1220px) {
     .container {
         width: 100%;
     }
