@@ -1,0 +1,231 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* header area  */
+.header-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    padding: 60px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.header-left h1 {
+    font-size: 50px;
+}
+.top-button {
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.top-button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    
+}
+/* common styles  */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 95%;
+}
+hr {
+    border: 1px solid gray;
+}
+/* main section  */
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-section {
+    width: 95%;
+    margin-top: 60px;
+}
+.main-left {
+    width: 18%;
+    float: left;
+    margin-right: 2%;
+}
+.right {
+    width: 80%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+
+}
+.main-right .main-thumbnail img {
+    width: 300px;
+    height: 175px;
+}
+.main-right a {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+.update-info {
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.update-info ul {
+  list-style: none; 
+  padding-left: 0;
+}
+.update-info ul li a {
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 6px 12px;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #000000;
+}
+.update-info ul li:hover a {
+    color: #ffffff;
+    background-color: tomato;
+}
+.update-info ul .blog a{
+    background-color: tomato;
+}
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* footer style  */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.footer-top h2 {
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+.footer-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-middle h2 {
+    color: #ffffff;
+    font-size: 35px;
+}
+.fifa-link ul {
+    display: flex;
+}
+.fifa-link ul li {
+    list-style: none;
+}
+.fifa-link ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+.footer-menu ul {
+    display: flex;
+}
+.footer-menu ul li {
+    list-style: none;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+/* Media Queries */
+@media screen and (max-width:778px) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .header-left {
+        margin-bottom: 20px;
+    }
+    .main-section {
+        width: 100%;
+    }
+    .main-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-left ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .update-info ul li a {
+        margin-right: 10px;
+    }
+    .right {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-right {
+        width: 100%;
+    }
+    .footer-menu ul {
+        flex-direction: column;
+    } 
+
+}
+@media screen and (min-width:779px) and (max-width: 1220px) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .header-left {
+        margin-bottom: 20px;
+    }
+    .main-section {
+        width: 100%;
+    }
+    .main-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-left ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    .update-info ul li a {
+        margin-right: 10px;
+    }
+    .right {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main-right {
+        width: 100%;
+    }
+    .footer-menu ul {
+        flex-direction: column;
+    } 
+
+}
