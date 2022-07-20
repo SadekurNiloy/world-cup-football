@@ -144,6 +144,7 @@ hr {
     text-align: center;
     border: 1px solid tomato;
     border-radius: 10px;
+    display: none;
 }
 .view a {
     text-decoration: none;

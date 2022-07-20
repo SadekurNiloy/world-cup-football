@@ -136,8 +136,11 @@ hr {
 }
 .main-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     
+}
+.main-info p {
+    margin-right: 30px;
 }
 .view {
     background-color: tomato;
@@ -244,7 +247,7 @@ footer {
     .footer-menu ul {
         flex-direction: column;
     } 
-
+    
 }
 @media screen and (min-width:769px) and (max-width: 1220px) {
     .container {
