@@ -143,11 +143,17 @@ hr {
     margin-right: 30px;
 }
 .view {
-    background-color: tomato;
+    /* background-color: tomato;
     padding: 10px 25px;
     text-align: center;
     border: 1px solid tomato;
-    border-radius: 10px;
+    border-radius: 10px; */
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 60px;
+    padding: 0px 15px;
 }
 .view a {
     text-decoration: none;
@@ -249,7 +255,7 @@ footer {
     } 
     
 }
-@media screen and (min-width:769px) and (max-width: 1220px) {
+@media screen and (min-width:769px) and (max-width: 1280px) {
     .container {
         width: 100%;
     }
